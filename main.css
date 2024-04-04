@@ -1,0 +1,25 @@
+.container {
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+  
+  .container > i {
+    position: absolute;
+    font-size: 35px;
+  
+    top: 10px;
+  }
+  
+  .container .notification {
+    position: absolute;
+    right: -10px;
+    background-color: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
